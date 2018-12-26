@@ -42,6 +42,17 @@ nav li{
     padding: 10px 0;
 }
 
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+
 main{
     background-color: cadetblue;
     text-align: center;
