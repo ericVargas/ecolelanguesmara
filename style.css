@@ -53,10 +53,41 @@ nav a:hover{
     text-decoration-color: #000;
 }
 
+nav input{
+    color: #000;
+    background-color: none;
+}
+
 main{
     background-color: cadetblue;
     text-align: center;
     padding: 25px 0;
+    width: 100%;
+}
+
+.viewer{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    
+}
+
+.viewer h2{
+    padding-bottom: 10px;
+}
+
+.viewer p{
+    text-align: justify;
+}
+
+#accueil span{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#accueil, #propos{
+    display: none;
 }
 
 footer{

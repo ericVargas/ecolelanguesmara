@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +13,29 @@
         <header>École De Langues MARA</header>
         <nav>
             <ul>
-                <li><a href="Accuiel_dec_2018.pdf">Accueil</a></li>
-                <li><a href="#">Technique</a></li>
-                <li><a href="A_propos.pdf" target="_blank">À Propos</a></li>
-                <li><a href="#">Dates <!--de cours--></a></li>
-                <li><a href="#">Spéciaux</a></li>
-                <li><a href="Coordonnes.pdf">Coordonnes</a></li>
+                <li><a href="#" onclick="toggle('accueil')">Accueil</a></li>
+                <li><a href="#" onclick="toggle()">Technique</a></li>
+                <li><a href="#" onclick="toggle('propos')">À Propos</a></li>
+                <li><a href="#" onclick="toggle()">Dates
+                        <!--de cours--></a></li>
+                <li><a href="#" onclick="toggle()">Spéciaux</a></li>
+                <li><a href="Coordonnes.pdf" onclick="toggle()">Coordonnes</a></li>
             </ul>
         </nav>
-        <main class="viewer">
-            Hola Miguel, esperando fotos :)
+        <main>
+            <div class="viewer">
+                <div id="propos">
+                    <h2>À Propos</h2>
+                    <p>Je suis un ingénieur gradué de l’École Polytechnique de Montréal (1988) dont ma langue maternelle est l’espagnol. Je parle couramment le français, l’espagnol et l’anglais.<br><br>Dans mon école de langues, je donne de cours de : espagnol, chinois phonétique, português et allemand.<br><br>Également, je donne des cours d’espagnol parlé et écrit, aux étudiants des collèges et des universités, avec un vocabulaire technique dans les domaines scientifiques, de l’ingénierie, des affaires et des sciences humaines, et ce, sur mesure.<br><br>Les cours d`espagnol, que je donne, sont orientés selon les besoins des étudiants.<br><br>D`autre part, je donne des cours chez les compagnies québécoises qui utilisent le vocabulaire d’espagnol dans leurs procédées techniques. En d’autres mots, j’adapte le vocabulaire des cours d’espagnol, que vous utilisez couramment avec vos clients d’outremer, aux besoins de votre entreprise.<br><br>Finalement, j’offre de services de rédaction de rapports techniques, de lettres et autres documents en espagnol.<br><br>Je donne des reçus à fins de l’impôt.</p>
+                </div>
+
+                <div id="accueil">
+                    <h2>Accueil</h2>
+                    <p>Chez notre école de langues, nous couvrons les langues qui suivent:<br><br><b>Espagnol, chinois phonétique, português, italien, et allemand.</b><br><br>Les autres langues peuvent être considérées également.<br><br>Les cours sont dispensés en français et anglais ainsi que dans la langue en train d`être appris.<br><br>Les groupes d`étudiants, qui suivent le cours en question, sont composés de 10 à 20 personnes à la fois.<br><br>Les cours sont annoncées pendant trois mois avant la date du début des leçons. Et l`école se réserve le droit d`annuler le cours prévu si le nombre d`étudiants n`est pas suffisant.<br><br>Soumettez-nous votre projet et nous vous ferons une estimation gratuite. Vous allez constater que nos prix sont très compétitifs.<br><br>Vous pouvez nous rejoindre au:<br><br><span>Cellulaire(438) 998 9307, Bureau (438) 387 6001<br>mara.services@gmail.com www.ecolelanguesmara.com<br><br>Salle des classes: CRC Côte-des-Neiges. 6767 Côte-des-Neiges, salle 400-1 <br>Bureau: 720 rue Lucien-L’Allier, app. 309, Montréal, Québec H3C 1Z8</span></p>
+                </div>
+            </div>
         </main>
         <footer>Eric Vargas &copy; 2018</footer>
     </div>
-</body>
-</html>
+    <script src="script.js"> </script>
+</body> </html>
